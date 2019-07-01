@@ -3,37 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.ClientSide", "GettingStarted.ClientSide\GettingStarted.ClientSide.csproj", "{F90E8B39-06F6-4F39-B7D6-B063F6DC10F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted.ClientSide", "GettingStarted.ClientSide\GettingStarted.ClientSide.csproj", "{F90E8B39-06F6-4F39-B7D6-B063F6DC10F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMO01", "DEMO01", "{75DA0718-D505-468B-9828-825936E678E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.ServerSide.Server", "GettingStarted.ServerSide.Server\GettingStarted.ServerSide.Server.csproj", "{2199C1AC-80EE-4116-A90C-2CF9EDDD3BB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted.ServerSide.Server", "GettingStarted.ServerSide.Server\GettingStarted.ServerSide.Server.csproj", "{2199C1AC-80EE-4116-A90C-2CF9EDDD3BB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.ServerSide.Client", "GettingStarted.ServerSide.Client\GettingStarted.ServerSide.Client.csproj", "{C97C53AB-78F4-4C26-A3C0-F30E01956A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted.ServerSide.Client", "GettingStarted.ServerSide.Client\GettingStarted.ServerSide.Client.csproj", "{C97C53AB-78F4-4C26-A3C0-F30E01956A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.ServerSide.Shared", "GettingStarted.ServerSide.Shared\GettingStarted.ServerSide.Shared.csproj", "{0CD29022-F24F-4513-81A2-1BC32316E70E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted.ServerSide.Shared", "GettingStarted.ServerSide.Shared\GettingStarted.ServerSide.Shared.csproj", "{0CD29022-F24F-4513-81A2-1BC32316E70E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMO02", "DEMO02", "{B0BCBD06-0D31-4FB6-81AD-F1A90FF565DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMO03", "DEMO03", "{4B9AC1ED-9138-4A88-A2D5-77AA684DCA27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.Components", "GettingStarted.Components\GettingStarted.Components.csproj", "{CF64932E-9467-40E2-8276-E946DED3982F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted.Components", "GettingStarted.Components\GettingStarted.Components.csproj", "{CF64932E-9467-40E2-8276-E946DED3982F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMo04", "DEMo04", "{9BE9E0EE-71CB-4A16-A477-973924EF585A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.ServerSide.Server", "ToDoApp.ServerSide.Server\ToDoApp.ServerSide.Server.csproj", "{04AB37B5-232E-405C-BCB0-E76ADE35B9D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp.ServerSide.Server", "ToDoApp.ServerSide.Server\ToDoApp.ServerSide.Server.csproj", "{04AB37B5-232E-405C-BCB0-E76ADE35B9D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.ServerSide.Client", "ToDoApp.ServerSide.Client\ToDoApp.ServerSide.Client.csproj", "{72FF2BB7-8845-477E-8625-C20DD8674131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp.ServerSide.Client", "ToDoApp.ServerSide.Client\ToDoApp.ServerSide.Client.csproj", "{72FF2BB7-8845-477E-8625-C20DD8674131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.ServerSide.Shared", "ToDoApp.ServerSide.Shared\ToDoApp.ServerSide.Shared.csproj", "{E49392D4-0335-47D5-8B81-B682AA44A210}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp.ServerSide.Shared", "ToDoApp.ServerSide.Shared\ToDoApp.ServerSide.Shared.csproj", "{E49392D4-0335-47D5-8B81-B682AA44A210}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMO05", "DEMO05", "{A77438D5-E683-48FD-9A20-13BECB9E054C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Advanced", "ToDoApp.Advanced\ToDoApp.Advanced.csproj", "{BE17D057-053B-48B9-98C9-4056DD42F8B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp.Advanced", "ToDoApp.Advanced\ToDoApp.Advanced.csproj", "{BE17D057-053B-48B9-98C9-4056DD42F8B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMO06", "DEMO06", "{2F01E281-DF67-4C26-B819-9F72FAC84554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM.Basic", "MVVM.Basic\MVVM.Basic.csproj", "{88D9248A-0D5A-42EA-9AA5-7C45E4ADE394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVVM.Basic", "MVVM.Basic\MVVM.Basic.csproj", "{88D9248A-0D5A-42EA-9AA5-7C45E4ADE394}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMO07", "DEMO07", "{9F63D230-99CA-4E0C-A091-5F89A413E180}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkdownEditor", "MarkdownEditor\MarkdownEditor.csproj", "{B1C04484-415D-49E3-8520-23284AC436E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,10 @@ Global
 		{88D9248A-0D5A-42EA-9AA5-7C45E4ADE394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D9248A-0D5A-42EA-9AA5-7C45E4ADE394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D9248A-0D5A-42EA-9AA5-7C45E4ADE394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C04484-415D-49E3-8520-23284AC436E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C04484-415D-49E3-8520-23284AC436E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C04484-415D-49E3-8520-23284AC436E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C04484-415D-49E3-8520-23284AC436E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +104,7 @@ Global
 		{E49392D4-0335-47D5-8B81-B682AA44A210} = {9BE9E0EE-71CB-4A16-A477-973924EF585A}
 		{BE17D057-053B-48B9-98C9-4056DD42F8B0} = {A77438D5-E683-48FD-9A20-13BECB9E054C}
 		{88D9248A-0D5A-42EA-9AA5-7C45E4ADE394} = {2F01E281-DF67-4C26-B819-9F72FAC84554}
+		{B1C04484-415D-49E3-8520-23284AC436E8} = {9F63D230-99CA-4E0C-A091-5F89A413E180}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {909AD4C8-EF7C-46B8-8BB5-793AEC676005}

@@ -1,0 +1,43 @@
+
+<span>Words: @WordsCount - Chars: @CharsCount </span>
+
+@code {
+
+private int WordsCount = 0;
+private int CharsCount = 0;
+
+private string _content;
+
+[Parameter]
+protected string Content
+{
+    get => _content;
+    set
+    {
+        _content = value;
+        ShowStats(_content);
+    }
+}
+
+private void ShowStats(string content)
+{
+    CharsCount = _content.Replace(" ", "").Count();
+
+    WordsCount = CountWords(content);
+
+}
+
+private int CountWords(string content)
+{
+    int a = 0 , myWord = 1;
+    while (a <= content.Length - 1) {
+        if(content[a]==' ' || content[a]=='\n' || content[a]=='\t') {
+            myWord++;
+        }
+        a++;
+    }
+
+    return myWord;
+}
+
+}

@@ -8,7 +8,8 @@ Age: <span style="cursor: pointer" onclick="@(()=>Decrement(true))">
     <strong>&nbsp;&gt;&nbsp;</strong>
 </span>
 <span>@Model.Age</span>
-@functions {
+
+@code {
     void Decrement(bool decrement)
     {
         if (decrement && Model.Age > 13)
